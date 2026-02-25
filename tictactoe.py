@@ -16,6 +16,7 @@ windowsSize.fill(color)
 myFont = pygame.font.SysFont("Segoe UI", 100)
 header = myFont.render("TRE PÅ RAD", 1, (255, 255, 255))
 
+#deifinerer globale variabler
 winner = None
 draw = False
 turn = "x"
@@ -27,21 +28,8 @@ o_image = pygame.image.load("oimage.png")
 #scaler bildene:
 x_image = pygame.transform.scale(x_image, (100, 100))
 o_image = pygame.transform.scale(o_image, (100, 100))
+
 #definerer knapp variabler:
-
-
-
-"""
-valuesx = [190, 315, 445, 570]
-valuesy = [150, 275, 405, 530]
-# lager knappene:
-
-pygame.draw.line(windowsSize, color_dark, [valuesx[1], valuesy[0]],[valuesx[1], valuesy[3]], width=10)
-pygame.draw.line(windowsSize, color_dark, [valuesx[2], valuesy[0]],[valuesx[2], valuesy[3]], width=10)
-pygame.draw.line(windowsSize, color_dark, [valuesx[0], valuesy[1]],[valuesx[3], valuesy[1]], width=10)
-pygame.draw.line(windowsSize, color_dark, [valuesx[0], valuesy[2]],[valuesx[3], valuesy[2]], width=10)
-"""
-#lager linjer:
 
 margin = 130
 firstButtonx = 190
